@@ -48,7 +48,7 @@ const DashboardComponent = observer(({ handleTabChange }: TMobileIconGuide) => {
                                     lineHeight='xxl'
                                     weight='bold'
                                 >
-                                    {localize('Load or build your bot')}
+                                    {localize('welcome to swiftforex')}
                                 </Text>
                             )}
                             <Text
@@ -60,10 +60,10 @@ const DashboardComponent = observer(({ handleTabChange }: TMobileIconGuide) => {
                             >
                                 {is_google_drive_configured
                                     ? localize(
-                                          'Import a bot from your computer or Google Drive, build it from scratch, or start with a quick strategy.'
+                                          'Build, test, and run your trading strategies with Swift Forex.'
                                       )
                                     : localize(
-                                          'Import a bot from your computer, build it from scratch, or start with a quick strategy.'
+                                          'Import your bot, build a strategy from scratch, or start with a quick strategy on Swift Forex.'
                                       )}
                             </Text>
                         </div>
